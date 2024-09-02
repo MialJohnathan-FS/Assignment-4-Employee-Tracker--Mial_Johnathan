@@ -84,7 +84,7 @@ class EmployeeTracker {
                 alert("Invalid choice. Please try again.");
         };
     
-       this.displayMenu();
+       this.displayMenu;
     }
 
     addEmployee() {
@@ -122,7 +122,6 @@ class EmployeeTracker {
 
     displayEmployees() {
         console.clear();
-        console.log("Bob's Burger Joint");
         console.log("ID\tName\tSalary\thrs\tpay\tFT/PT");
 
         this.employees.forEach((employee, index) => {
